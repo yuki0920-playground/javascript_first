@@ -1,5 +1,6 @@
-function price (unit_price, amount){
-  return unit_price * amount;
+var x = 99;
+if (x >= 100){
+  console.log('100以上です。');
+} else {
+  console.log('100未満です。');
 }
-
-console.log(price(100, 13));
