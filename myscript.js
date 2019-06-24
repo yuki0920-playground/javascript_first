@@ -1,19 +1,3 @@
-// 代入演算子
-
-x = 3;
-console.log(x);
-
-x += 3;
-console.log(x);
-
-x -= 3;
-console.log(x);
-
-x *= 3;
-console.log(x);
-
-x /= 3;
-console.log(x);
-
-x %= 3;
+a = 100;
+x = a * 13;
 console.log(x);
