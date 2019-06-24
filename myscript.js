@@ -1,4 +1,7 @@
-// リテラル
+// nullとundefined
 
-console.log(10);
-console.log("She's happy");
+var x = null;
+console.log(x);
+
+var y;
+console.log(y);
