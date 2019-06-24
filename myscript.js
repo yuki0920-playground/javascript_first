@@ -1,3 +1,5 @@
-a = 100;
-x = a * 13;
-console.log(x);
+function getRectangle(height, width){
+  return height * width;
+}
+
+console.log(getRectangle(3, 5));
