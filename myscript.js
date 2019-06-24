@@ -1,6 +1,11 @@
-var x = 99;
-if (x >= 100){
-  console.log('100以上です。');
+var x = 70;
+
+if (x >= 90) {
+  console.log('A');
+} else if (x >= 80 ){
+  console.log('B');
+} else if (x >= 60){
+  console.log('C');
 } else {
-  console.log('100未満です。');
+  console.log('D');
 }
