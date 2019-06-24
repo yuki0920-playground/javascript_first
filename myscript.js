@@ -1,3 +1,4 @@
-// 変数の出力
-var colorName = "red";
-// console.log(colorName);
+// 定数の出力
+
+const TAX_RATE = 1.08;
+console.log(TAX_RATE);
