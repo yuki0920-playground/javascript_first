@@ -1,3 +1,2 @@
-var str = 'こんにちは';
-console.log(str.length);
-console.log(str.charaAt(2));
+var str = 'red,gree,blue'
+console.log(str.split(','));
