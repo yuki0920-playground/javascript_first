@@ -1,2 +1,3 @@
-var str = 'red,gree,blue'
-console.log(str.split(','));
+for (var i = 1; i <= 3; i ++) {
+  console.log(i);
+}
