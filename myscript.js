@@ -1,16 +1,9 @@
-var n = 10;
+var age = 100;
 
-switch(n){
-  case 1:
-    console.log("数値は1です");
-    break;
-  case 2:
-    console.log("数値は2です");
-    break;
-  case 3:
-    console.log("数値は3です");
-    break;
-  default:
-    console.log("範囲外です");
-    break;
+if (age < 6){
+  console.log("800円");
+}else if (age < 12){
+  console.log("1800円");
+}else {
+  console.log("4600円");
 }
