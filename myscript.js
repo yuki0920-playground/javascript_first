@@ -1,3 +1,5 @@
-for (var i = 1; i <= 3; i ++) {
+var i = 1;
+while (i <= 3) {
   console.log(i);
+  i++;
 }
