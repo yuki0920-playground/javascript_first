@@ -1,3 +1,5 @@
-var getRectangle = new Function('height', 'width', 'return height * width');
+function price (unit_price, amount){
+  return unit_price * amount;
+}
 
-console.log(getRectangle(3, 5));
+console.log(price(100, 13));
