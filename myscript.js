@@ -1,5 +1,6 @@
-var i = 1;
-do {
-  console.log(i);
-  i++;
-}while( i <= 3);
+var colors = ['red', 'green', 'blue'];
+
+console.log(colors[0]);
+console.log(colors[1]);
+console.log(colors[2]);
+console.log(colors[3]);
