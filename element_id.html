@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf8">
+    <title>JavaScriptの学習</title>
+  </head>
+  <body>
+    <p id="result">pタグの文字列です</p>
+    <input type="button" value="取得" onclick="show()">
+    <script>
+      function show(){
+        var result = document.getElementById('result');
+        console.log(result.innerText);
+      }
+    </script>
+  </body>
+</html>
