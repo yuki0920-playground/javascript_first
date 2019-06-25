@@ -1,6 +1,5 @@
-var colors = ['red', 'green', 'blue'];
+var user = {name:'山田花子', gender:'女性', birth:'1990/01/01'};
 
-console.log(colors[0]);
-console.log(colors[1]);
-console.log(colors[2]);
-console.log(colors[3]);
+console.log(user.name);
+console.log(user.gender);
+console.log(user.birth);
