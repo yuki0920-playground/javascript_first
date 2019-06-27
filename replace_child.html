@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf8">
+    <title>JavaScriptの学習</title>
+  </head>
+  <body>
+    <ul id="list">
+      <li id="oldList">古い要素です</li>
+    </ul>
+    <!-- <ul id="list">
+      <li id="newList">新しい要素です</li>
+    </ul> -->
+
+    <input type="button" value="置換" onclick="replace();">
+    <script>
+      function replace(){
+        // 空のli要素を作成
+        var newList = document.createElement('li');
+        // 生成したノードにid属性"newList"を付与
+        newList.setAttribute('id', 'newList')
+        // テキストノードを生成
+        var newTest = document.createTextNode('新しい要素です');
+        newList.appendChild(newTest);
+        // 置換前の変数oldListの参照を変数oldListに代入
+        var oldList = document.getElementById('oldList');
+        // 親ノード(ul)の参照を変数parentNodeに代入
+        var parentNode = oldList.parentNode;
+        // 既存ノードoldListを、新規に生成したli要素newListと置換
+        parentNode.replaceChild(newList, oldList);
+      }
+    </script>
+  </body>
+</html>
