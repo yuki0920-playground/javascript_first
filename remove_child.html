@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf8">
+    <title>JavaScriptの学習</title>
+  </head>
+  <body>
+    <ul id="list">
+      <li>要素1</li>
+      <li>要素2</li>
+      <li>要素3</li>
+      <li>要素4</li>
+      <li>要素5</li>
+    </ul>
+
+    <input type="button" value="削除" onclick="remove();">
+
+    <script>
+      function remove(){
+        var parentElement = document.getElementById('list');
+        var lists = parentElement.getElementsByTagName('li');
+        var remoeveIndex = lists.length - 1;
+        parentElement.removeChild(lists[remoeveIndex]);
+      }
+    </script>
+  </body>
+</html>
