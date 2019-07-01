@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScriptの学習</title>
+</head>
+<body>
+  <input id="btn" type="button" value="イベント発生" >
+  <script>
+    window.onload = function() {
+      var e = document.getElementById('btn');
+      e.addEventListener('click', function(){
+        console.log('イベント発生！');
+      });
+      e.addEventListener('click', function(){
+        alert('イベント発生!');
+      })
+    };
+  </script>
+</body>
+</html>
